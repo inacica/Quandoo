@@ -47,7 +47,7 @@ class Login(unittest.TestCase):
 
         ascendent_last_names_list = sorted(last_names_list)
 
-    #Here, the if statement could be improved with a while loop, but i had some issues with iterating in html. I would need more time to investigate.
+    #Here, the if statement could be improved with a while loop, but i had some issues with iterating in html.
 
         if last_name_0 != ascendent_last_names_list[0]:
             last_name = self.driver.find_element(By.XPATH, '//span[@class="last-name"]/parent::th')
